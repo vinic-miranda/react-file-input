@@ -68,8 +68,6 @@ export default function App() {
 }
 ```
 
----
-
 ## Children function
 
 More of the data provided for the children function.
@@ -109,8 +107,6 @@ export default function App() {
 }
 ```
 
----
-
 ## Previewing
 
 Simple image preview.
@@ -140,8 +136,6 @@ export default function App() {
   )
 }
 ```
-
----
 
 ## Hooks
 
