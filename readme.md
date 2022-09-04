@@ -1,60 +1,54 @@
 👽 Simple unstyled file input for React.
 
-**Installation**
+**Installation** <br />
 `yarn add @magrathea42/react-input-file`
 
 ---
 
 # Props
 
-**accepts** `string | string[]`
+## accepts `string | string[]`
+
 The _accept_ property for the HTML input. Can be any of the pre-defined types or a custom string/array.
 
 _default_: `undefined` (all file types)
 
----
+## isMultiple `boolean`
 
-**isMultiple** `boolean`
 Whether or not to allow multiple file entries.
 
 _default_: `false`
 
----
+## onUpload `function`
 
-**onUpload** `function`
 The callback function that will be executed after the files were uploaded. It receives the files as the first parameter and helpers functions as the second.
 
 _default_: `undefined`
 
----
+## parseBase64 `boolean`
 
-**parseBase64** `boolean`
 Whether or not to parse the uploaded files to base64. It happens asynchronously before the `onUpload` callback using the `getFileBase64` function, which is also
 exported by the lib if you wish to use it.
 
 _default_: `false`
 
----
+## inputProps `HTMLProps<HTMLInput>`
 
-**inputProps** `object`
 The HTML input props. These will not overwrite any of the default input settings used by this lib.
 
 _default_: `undefined`
 
----
+## children `function | ReactNode`
 
-**children** `function | ReactNode`
 The children will be rendered after the HTML input. It can be a simple ReactNode, or a custom function, which receives the uploaded files and the helpers such as the examples bellow.
 
 _default_: `undefined`
 
----
-
 # Examples
 
-Here are some simple usage examples, but I bet you can get more creative then this.
+Here are some really simple usage examples, but I bet you can get more creative then this.
 
----
+## Basic
 
 A really basic usage that will probably attend most of the cases.
 
@@ -76,7 +70,9 @@ export default function App() {
 
 ---
 
-More of the data provided for the children component.
+## Children function
+
+More of the data provided for the children function.
 
 ```tsx
 import { FileInput } from '@magrathea42/react-file-input'
@@ -115,7 +111,9 @@ export default function App() {
 
 ---
 
-Simple image previewing.
+## Previewing
+
+Simple image preview.
 
 ```tsx
 import { FileInput } from '@magrathea42/react-file-input'
@@ -145,7 +143,9 @@ export default function App() {
 
 ---
 
-Using with hooks.
+## Hooks
+
+Using with React hooks.
 
 ```tsx
 import { File, FileInput, FileInputRef } from '@magrathea42/react-file-input'
@@ -182,5 +182,7 @@ export default function App() {
 
 ---
 
-Any suggestions and tips will always be welcome!
-_**~ magrathea42**_ 🪐
+<br/>
+
+Any suggestions and tips will always be welcome! <br />
+<i><b>~ magrathea42</b></i> 🪐
