@@ -1,5 +1,5 @@
 {
-  "name": "@magrathea/react-file-input",
+  "name": "@magrathea42/react-file-input",
   "version": "1.0.0",
   "description": "Simple unstyled file input for React",
   "main": "./dist/cjs/index.js",
