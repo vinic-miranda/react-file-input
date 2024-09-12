@@ -1,4 +1,4 @@
-👽 Simple unstyled file input for React.
+Simple unstyled file input for React.
 
 **Installation** <br />
 `yarn add @magrathea42/react-input-file`
@@ -179,4 +179,4 @@ export default function App() {
 <br/>
 
 Any suggestions and tips will always be welcome! <br />
-<i><b>~ magrathea42</b></i> 🪐
+<i><b>Vini Miranda</b></i>
