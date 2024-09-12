@@ -1,7 +1,7 @@
 Simple unstyled file input for React.
 
 **Installation** <br />
-`yarn add @magrathea42/react-input-file`
+`yarn add @vinimiranda/react-input-file`
 
 ---
 
